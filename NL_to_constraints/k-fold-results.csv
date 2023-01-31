@@ -1,0 +1,10 @@
+"Model Name","Learning Rate","Batch Size","Weight Decay","epochs","Model-type","Pretrained model","selections","K-fold Acc","Std"
+"Everything",0.0005,16,0.001,10,"Roberta-con-tokens","synthetic","bert_no_map",68.21,1.08
+"Everything – (Selections)",0.0005,16,0.001,15,"Roberta-con-tokens","synthetic","None",65.31,1.12
+"Everything – (Synthetic → Syn Aug)",0.0005,16,0.001,15,"Roberta-con-tokens","synthetic_augmented","bert_no_map",67.09,1.28
+"Everything – (con-tokens → None)",0.0005,16,0.001,15,"Roberta-base","synthetic","bert_no_map",65.96,1.12
+"Everything – (Pretraining → None)",0.001,16,0.001,20,"Roberta-con-tokens","None","bert_no_map",65.76,1.13
+"RNN",0.01,8,0.001,25,"RNN","None","None",57.47,2.93
+"Roberta-base",0.001,16,0.001,15,"Roberta-base","None","None",62.6,1.6
+"HA + Con tokens + selections",3.5E-05,32,0.001,15,"Roberta-con-tokens","None","bert_no_map",65.524,1.42
+"HA + synthetic + Con-Tokens + selections",0.0005,32,0.001,10,"Roberta-con-tokens","synthetic","bert_no_map",67.79,1.58

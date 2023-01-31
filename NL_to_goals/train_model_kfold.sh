@@ -1,0 +1,1 @@
+python -u run_model_to_goal_kfold.py --gpu_core 1 --save_path ../pretrain_none_kfold --num_goal_buckets 5 --save_pretrained_models
